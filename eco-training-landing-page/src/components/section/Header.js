@@ -4,7 +4,7 @@ import { FaInstagram, FaWhatsappSquare, FaFacebookSquare } from "react-icons/fa"
 import Logo from "../../img/Logo.png";
 import Nav from 'react-bootstrap/Nav';
 
-function Navbar() {
+function Header() {
     return (
         <div className={style.navbar}>
             <div className="logo">
@@ -23,5 +23,5 @@ function Navbar() {
     );
 }
 
-export default Navbar;
+export default Header;
 
