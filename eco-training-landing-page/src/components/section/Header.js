@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Header.module.css';
 import { FaInstagram, FaWhatsappSquare, FaFacebookSquare } from "react-icons/fa";
 import Logo from "../../img/Logo.png";
-import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-scroll';
 
 function Header() {
     return (
@@ -11,8 +11,26 @@ function Header() {
                 <img src={Logo} alt="Logo Eco Training" />
             </div>
             <ul className={style.links}>
-                <li><Nav.Link href='#about'>Sobre</Nav.Link></li>
-                <li><Nav.Link href="#contact">Contate-nos</Nav.Link></li>
+                <li>
+                    <Link
+                        to="About"
+                        smooth={true}
+                        duration={900}
+                        offset={-70}
+                    >
+                        Sobre
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to="Form"
+                        smooth={true}
+                        duration={1000}
+                        offset={-70}
+                    >
+                        Contate-nos
+                    </Link>
+                </li>
             </ul>
             <ul className={style.social_icons}>
                 <li><a href="https://www.facebook.com/simuladordeescada" target="_blank" rel="noopener noreferrer"><FaFacebookSquare /></a></li>
@@ -24,4 +42,5 @@ function Header() {
 }
 
 export default Header;
+
 

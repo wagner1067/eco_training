@@ -3,6 +3,7 @@ import './App.css';
 import Section from '../src/components/section/Section';
 import About from './components/section/About';
 import Factory from './components/section/Factory';
+import Form from './components/section/Form';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Section />
       <About />
       <Factory />
+      <Form />
     </div>
   );
 }

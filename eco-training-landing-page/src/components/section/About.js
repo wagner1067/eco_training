@@ -1,10 +1,11 @@
 import React from "react";
 import Logo from "../../img/Logo.png";
 import style from "./About.module.css";
+import { Link } from 'react-scroll';
 
 function About() {
     return (
-        <div className={style.container}>
+        <div id="About" className={style.container}>
             <img className={style.logo} src={Logo} alt="Logo" />
             <div className={style.content}>
                 <h1 className={style.title}>Sobre</h1>
@@ -13,7 +14,14 @@ function About() {
                     fica evidente. Temos hoje a mesma paixão que tínhamos<br />
                     quando começamos, se não for ainda maior.
                 </p>
-                <button className={style.button}>Contate-nos</button>
+                <Link
+                    to="Form"
+                    smooth={true}
+                    duration={900}
+                    offset={-70}
+                >
+                    <button className={style.button}>Contate-nos</button>
+                </Link>
             </div>
         </div>
     );

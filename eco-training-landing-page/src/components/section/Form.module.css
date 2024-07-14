@@ -1,0 +1,131 @@
+.contactContainer {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin: 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(12, 150, 74, 1) 20%,
+    rgba(8, 99, 49, 1) 50%,
+    rgba(10, 124, 61, 1) 80%
+  );
+  color: white;
+  font-family: "Roboto Slab", medium;
+}
+
+.info {
+  font-family: "Roboto Slab", medium;
+  flex: 1;
+  margin-top: 40px;
+  margin-left: 105px;
+  -webkit-text-stroke: 1px black;
+}
+
+.info h1 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.info p {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.hoursContainer {
+  margin-bottom: 70px;
+}
+
+.hours {
+  display: flex;
+}
+
+.hours p {
+  margin-right: 75px;
+}
+
+.socialIcons {
+  display: flex;
+  margin-top: 40px;
+}
+
+.icons {
+  color: white;
+  font-size: 24px;
+  margin-right: 50px;
+}
+
+.form {
+  margin-right: 127px;
+  padding: 20px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.form input,
+.form textarea {
+  width: 320px;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 0;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+  font-family: "Roboto Slab", medium;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #f5f5f5;
+  font-family: "Roboto Slab", medium;
+  font-size: 16px;
+  -webkit-text-stroke: 1px black;
+  font-weight: 700;
+}
+
+.form input:hover,
+.form textarea:hover {
+  border-bottom: 2px solid #ccc;
+}
+
+.form button {
+  margin-top: 76px;
+  margin-bottom: 24px;
+  height: 44px;
+  width: 268px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  color: #f5f5f5;
+  font-size: 24px;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(12, 150, 74, 1) 20%,
+    rgba(8, 99, 49, 1) 50%,
+    rgba(10, 124, 61, 1) 80%
+  );
+}
+
+.statusMessage {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #f5f5f5;
+}

@@ -25,6 +25,7 @@ img {
   padding: 10px;
   margin: 10px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .links li a {
