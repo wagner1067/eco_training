@@ -136,8 +136,8 @@
 /* Media Queries para Responsividade */
 @media (min-width: 768px) {
   .contactContainer {
+    width: auto;
     display: flex;
-    justify-content: center;
     text-align: left;
   }
 
@@ -177,6 +177,9 @@
 }
 
 @media (max-width: 576px) {
+  .contactContainer {
+    width: 1550px;
+  }
   .info h1 {
     font-size: 28px;
   }

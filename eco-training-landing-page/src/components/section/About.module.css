@@ -63,6 +63,7 @@
 /* Media Queries para Responsividade */
 @media (max-width: 768px) {
   .container {
+    width: 1580px;
     display: block;
     flex-direction: column;
     text-align: center;
