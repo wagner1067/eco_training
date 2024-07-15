@@ -1,16 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import style from './Header.module.css';
-import { FaInstagram, FaWhatsappSquare, FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram, FaWhatsappSquare, FaFacebookSquare, FaBars } from "react-icons/fa";
 import Logo from "../../img/Logo.png";
 import { Link } from 'react-scroll';
 
 function Header() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
         <div className={style.navbar}>
             <div className="logo">
                 <img src={Logo} alt="Logo Eco Training" />
             </div>
-            <ul className={style.links}>
+            <button className={style.menuButton} onClick={toggleMenu}>
+                <FaBars />
+            </button>
+            <ul className={`${style.links} ${menuOpen ? style.showMenu : ''}`}>
                 <li>
                     <Link
                         to="About"
@@ -42,5 +51,3 @@ function Header() {
 }
 
 export default Header;
-
-

@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+
 .contactContainer {
-  height: 500px;
+  width: 1440px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   padding: 40px;
@@ -128,4 +131,61 @@
   margin-top: 20px;
   font-size: 18px;
   color: #f5f5f5;
+}
+
+/* Media Queries para Responsividade */
+@media (min-width: 768px) {
+  .contactContainer {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .info {
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+
+  .info h1 {
+    font-size: 36px;
+  }
+
+  .hoursContainer {
+    margin-bottom: 70px;
+  }
+
+  .icons {
+    margin-right: 50px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 0;
+  }
+
+  .form form {
+    margin-top: 100px;
+  }
+
+  .form button {
+    margin-top: 50px;
+    width: 268px;
+  }
+}
+
+@media (max-width: 576px) {
+  .info h1 {
+    font-size: 28px;
+  }
+
+  .info p {
+    font-size: 18px;
+  }
+
+  .form button {
+    font-size: 18px;
+  }
 }
