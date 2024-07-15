@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
 
 .contactContainer {
-  width: 1440px;
+  width: auto;
   height: 100%;
   display: flex;
   justify-content: space-between;
