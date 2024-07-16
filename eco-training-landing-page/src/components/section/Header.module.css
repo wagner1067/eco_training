@@ -92,4 +92,7 @@ img {
   .menuButton {
     display: block;
   }
+  .showMenu {
+    display: flex !important;
+  }
 }

@@ -18,12 +18,14 @@
 
 .logo {
   height: 500px;
+  margin-right: 10px;
   margin-bottom: 36px;
   margin-left: 80px;
   margin-top: 62px;
 }
 
 .content {
+  text-align-last: left;
   margin-right: 250px;
 }
 
@@ -31,7 +33,6 @@
   font-family: "Roboto Slab", serif;
   font-size: 48px;
   -webkit-text-stroke: 1px black;
-  text-align-last: left;
   margin-bottom: 50px;
 }
 
@@ -40,8 +41,8 @@
   -webkit-text-stroke: 1px black;
   font-weight: 700;
   font-size: 24px;
-  text-align-last: left;
-  margin-bottom: 80px;
+  text-align: left;
+  margin-bottom: 50px;
   padding: 0px;
 }
 
@@ -77,7 +78,7 @@
   }
 
   .title {
-    margin-left: 58%;
+    margin-left: 57%;
     text-align: center;
     font-size: 30px;
   }

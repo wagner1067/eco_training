@@ -10,7 +10,7 @@ function About() {
             <div className={style.content}>
                 <h1 className={style.title}>Sobre</h1>
                 <p className={style.text}>
-                    Há mais de 12 anos no mercado, amamos o que fazemos e isso <br />
+                    Há mais de 12 anos no mercado, amamos o que fazemos e isso<br />
                     fica evidente. Temos hoje a mesma paixão que tínhamos<br />
                     quando começamos, se não for ainda maior.
                 </p>
