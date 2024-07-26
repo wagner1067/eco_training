@@ -9,7 +9,7 @@ function Factory() {
                 <img className={style.img} src={Torno} alt='Torno' />
                 <div className={style.textContainer}>
                     <h1 className={style.title}>Fabricação de peças técnicas.</h1>
-                    <p className={style.text}>Sob demanda específica!</p>
+                    <h1 className={style.text}>Sob demanda específica!</h1>
                 </div>
             </div>
         </div>
